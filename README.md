@@ -15,11 +15,11 @@ All you have to do is Install the nvidia RTX Spark drivers manually by doing the
 Now reboot (keep eGPU plugged in)
 
 You'll see device manager show Nvidia Desktop Device as Code 12. Run the following script as admin
-`sudo python rebar_fix.py`. You should see your GPU as follows.
+`python rebar_fix.py`. You should see your GPU as follows.
 ![alt text](image-1.png)
 
 If you see it and its the device you would like to adjust the memory maps of. Do the following:
-1. `sudo python rebar_fix.py --apply`
+1. `python rebar_fix.py --apply`
 2. Disconnect your GPU
 3. Reconnect your GPU to the SAME port
 4. Wait about 30 seconds (keep device manager open)
