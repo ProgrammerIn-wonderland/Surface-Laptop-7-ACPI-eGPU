@@ -25,3 +25,4 @@ If you see it and its the device you would like to adjust the memory maps of. Do
 4. Wait about 30 seconds (keep device manager open)
 
 You should see your eGPU connected monitors fire up and device manager mark "Nvidia Desktop Device" as "This device is working properly".
+![alt text](image-2.png)
